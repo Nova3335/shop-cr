@@ -1,6 +1,6 @@
 import { cartReducer } from "../reducer/cartReducer";
 import { createContext, useContext, useReducer } from "react";
-import { Cart } from "../pages";
+
 
 const initialState = {
     cartList: [],
